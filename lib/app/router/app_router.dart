@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc_store/features/superheroes/presentation/views/home_view.dart';
-import 'package:flutter_bloc_store/services/router/route_names.dart';
+
+import 'route_names.dart';
 
 class AppRouter {
   static Route _materialPageRoute(Widget page) =>
